@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>LIFF DEMO</title>
+  <link rel="stylesheet" href="assets/cs/style.css" media="all">
+</head>
+<body>
+    <h1>Environment</h1>
+  <p id="os"><b>OS:</b> </p>
+  <p id="language"><b>Language:</b> </p>
+  <p id="version"><b>Version:</b> </p>
+  <p id="isInClient"><b>isInClient:</b> </p>
+  <p id="accessToken"><b>AccessToken:</b> </p>
+    <hr>
+
+    <h1>Profile</h1>
+  <img id="pictureUrl">
+  <p id="userId"><b>userId:</b> </p>
+  <p id="displayName"><b>displayName:</b> </p>
+  <p id="statusMessage"><b>statusMessage:</b> </p>
+  <p id="decodedIDToken"><b>email:</b> </p>
+
+  <!-- <script src="https://static.line-scdn.net/liff/edge/versions/2.4.0/sdk.js"></script> -->
+  <script>
+    async function getUserProfile() {
+    }
+
+    function getEnvironment() {
+    }
+
+    async function main() {
+      alert("LIFF DEMO")
+      await liff.init({ liffId: "YOUR-LIFF-ID" })
+      // getEnvironment()
+      // getUserProfile()
+      // getContext()
+      // getFriendship()
+      // createUniversalLink()
+    }
+    main()
+  </script>
+</body>
+</html>
